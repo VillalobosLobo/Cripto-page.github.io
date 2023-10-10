@@ -55,7 +55,20 @@ li:hover {
     align-items: center;
 }
 
-#forma, #hobbie, #cv, #cripto{
+#forma, #hobbie, #cv{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro con opacidad (RGBA) */
+    color: white; /* Color del texto dentro del div */
+    padding: 50px; /* Espacio interno para el contenido */
+    width: 80%; /* Ancho del div */
+    margin: 0 auto; /* Centrar el div horizontalmente */
+    font-size: 16px;
+    line-height: 1.5;
+    align-items: center;
+}
+
+#cripto{
     display: flex;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro con opacidad (RGBA) */
